@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/earlyaccess/hanna.css');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+*{
+  box-sizing: inherit;
+  margin: 0 auto;
+}
+
+.container{
+  width:960px;
+}
+nav{
+  height:70px;
+  width:100%;
+  margin-bottom :2px solid gray;
+  margin-bottom:20px;
+}
+
+nav h1 {
+  margin-left: 15px;
+  line-height:70px;
+  display:inline-block;
+  vertical-align: middle;
+  font-size:28px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+nav a {
+  font-family: 'Didact Gothic', sans-serif;
+  float: right;
+  line-height:70px;
+  display:inline-block;
+  vertical-align:middle;
+  margin-left:15px;
+  margin-right:15px;
+  font-size:18px;
+  text-decoration:none;
+  color:black;
+}
+.li_2{
+  font-family: 'Didact Gothic', sans-serif;
+  float: right;
+  line-height:70px;
+  display:inline-block;
+  vertical-align:middle;
+  margin-left:15px;
+  margin-right:15px;
+  font-size:18px;
+  text-decoration:none;
+  color:red;
+}
+header{
+  height:500px;
+  width:100%;
+  }
+
+#header-background-image{
+  background-image:url("https://static1.squarespace.com/static/55e0b3d2e4b075a192d44dce/55e0c566e4b06a8d50dcea0c/55e0c593e4b098bcbbcc5ade/1441905799665/");
+  width:960px;
+  height:500px;
+}
+
+.introducebox {
+  background-color:rgba(0, 0, 0, 0.35);
+  width:400px;
+  height:100%;
+  margin-right:30px;
+}
+
+.introducewrite{
+  color: white;
+  font-size:20px;
+  width:320px;
+  height:200px;
+  float:left;
+  padding-top:200px;
+  font-weight:100;
+
+}
+
+.font-weight-bold{
+  color:black;
+  font-weight:bold;
+
+}
+section {
+  width:100%;
+  height:2150px;
+  background-color: white;
+  margin-top:60px;
+}
+#dream-sector>h1{
+  text-align:center;
+  font-family: 'Didact Gothic', sans-serif;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+#activity-sector>h1{
+  text-align:center;
+  font-family: 'Didact Gothic', sans-serif;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+#goal-sector>h1{
+  text-align:center;
+  font-family: 'Didact Gothic', sans-serif;
+  padding-top:15px;
+}
+#contact-sector>h1{
+  text-align:center;
+  font-family: 'Didact Gothic', sans-serif;
+
+}
+.dream-title{
+  font-size :30px;
+  font-family: 'Didact Gothic', sans-serif;
+  display:inline-block;
+  vertical-align:middle;
+  height: 150px;
+  width: 150px;
+  line-height:150px;
+  text-align:center;
+  margin:60px 45px 60px 45px;
+  padding: 20px 30px 20px 30px;
+  color: white;
+  background-color:blue;
+}
+.dream-title2{
+  font-size :30px;
+  font-family: 'Didact Gothic', sans-serif;
+  display:inline-block;
+  vertical-align:middle;
+  height: 150px;
+  width: 150px;
+  line-height:150px;
+  text-align:center;
+  margin:60px 45px 60px 45px;
+  padding: 20px 30px 20px 30px;
+  color: white;
+  background-color:red;
+}
+.dream-content{
+  display:inline-block;
+  vertical-align:middle;
+  list-style:none;
+  padding-left:0px;
+  margin-top:40px;
+  margin-bottom:40px;
+  padding : 20px 0 20px 0;
+  width:600px;
+  height:150px;
+  font-size:22px;
+  padding-left: 20px;
+}
+
+.activity-img1{
+  width:200px;
+  border-right: 0.5px dotted gray;
+  padding-right:50px;
+  padding-top:80px;
+  padding-bottom:80px;
+  margin: 30px 0px 30px 45px;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.activity-img2{
+  width:200px;
+  height:200px;
+  border-right: 0.5px dotted gray;
+  padding-right:50px;
+  margin: 30px 0px 30px 45px;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.activity-content{
+  font-size:20px;
+  display:inline-block;
+  vertical-align:middle;
+  width:600px;
+  list-style:none;
+  margin-left: 30px;
+}
+.font-color-gray{
+  color: gray;
+}
+
+.goal-title{
+  font-size :30px;
+  font-family: 'Didact Gothic', sans-serif;
+  display:inline-block;
+  vertical-align:middle;
+  height: 150px;
+  width: 150px;
+  line-height:150px;
+  text-align:center;
+  margin:60px 45px 60px 45px;
+  padding: 20px 30px 20px 30px;
+  color: white;
+  background-color:blue;
+}
+
+.goal-title2{
+  font-size :30px;
+  font-family: 'Didact Gothic', sans-serif;
+  display:inline-block;
+  vertical-align:middle;
+  height: 150px;
+  width: 150px;
+  line-height:150px;
+  text-align:center;
+  margin:60px 45px 60px 45px;
+  padding: 20px 30px 20px 30px;
+  color: white;
+  background-color:red;
+}
+.goal-content{
+  display:inline-block;
+  vertical-align:middle;
+  list-style:none;
+  padding-left:0px;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding : 20px 0 20px 0;
+  width:600px;
+  height:150px;
+  font-size:22px;
+  padding-left: 20px;
+}
+.contact-content p{
+  text-align: center;
+}
+.contact-content img{
+  margin: 70px 0px 70px 0px;
+  padding: 0px 25px 0px 0px;
+
+}
+
+.up-scroll{
+  width:40px;
+  height:40px;
+  background-color:white;
+  float:right;
+  border:1px solid black;
+  border-radius:100px;
+}
+
+footer{
+  width:100%;
+  height:50px;
+}
+
+.footer-content{
+  border-top:1px solid gray;
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align:center;
+  font-size:15px;
+  line-height: 50px;
+  vertical-align: middle;
+}
